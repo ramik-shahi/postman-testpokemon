@@ -1,0 +1,817 @@
+{
+	"info": {
+		"_postman_id": "1d378760-ce72-4cdd-8914-0d05472646b7",
+		"name": "pokemon review",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29985757"
+	},
+	"item": [
+		{
+			"name": "category",
+			"item": [
+				{
+					"name": "Get/category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Category",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post/category",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"name\": \"CHALIZARD\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Category",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get/category/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Category/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Category",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "put/category/id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\":7,\r\n  \"name\": \"bolvoshsowr\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Category/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Category",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete/category",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Category/8",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Category",
+								"8"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Country",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get/country",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Country",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Country"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post/country",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"East-blue\"\r\n}\r\n  ",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Country",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Country"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get/country/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Country/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Country",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete/country/id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Country/5",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Country",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update/country/id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 6,\r\n  \"name\": \"konoha\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Country/6",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Country",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "countrybyuserID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/owners/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"owners",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Owner",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get all owner",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Owner",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Owner"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "owner by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Owner/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Owner",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "new owner",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"gym\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Owner?countryId=2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Owner"
+							],
+							"query": [
+								{
+									"key": "countryId",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update owner",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 7,\r\n  \"firstName\": \"naruto\",\r\n  \"lastName\": \"uzumaki\",\r\n  \"gym\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Owner/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Owner",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete the user",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Owner/7",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Owner",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pokemon",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "get all pokemon",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Pokemon",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Pokemon"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "pokemon by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Pokemon/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Pokemon",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "new pokemon",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n \r\n  \"name\": \"chargeload\",\r\n  \"birthDate\": \"2024-02-11T06:55:52.647Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Pokemon/?ownerId=1&catId=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Pokemon",
+								""
+							],
+							"query": [
+								{
+									"key": "ownerId",
+									"value": "1"
+								},
+								{
+									"key": "catId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Review",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "all reviw",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Review",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Review"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "review/id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Review/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Review",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "review/post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"title\": \"Veasaur new\",\r\n  \"text\": \"string\",\r\n  \"rating\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Review/?reviewerId=3&pokeId=1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Review",
+								""
+							],
+							"query": [
+								{
+									"key": "reviewerId",
+									"value": "3"
+								},
+								{
+									"key": "pokeId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update review",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\":11,\r\n  \"title\": \"updated-Veasaur new\",\r\n  \"text\": \"string\",\r\n  \"rating\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Review/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Review",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Review/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Review",
+								"11"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reviewer",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "all reviewer",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Reviewer",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Reviewer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "by id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Reviewer/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Reviewer",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add new reviewer",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"firstName\": \"test\",\r\n  \"lastName\": \"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Reviewer",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Reviewer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updated",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 11,\r\n  \"firstName\": \"update-string\",\r\n  \"lastName\": \"update-string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7036/api/Reviewer/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Reviewer",
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete reviewer",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7036/api/Reviewer/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7036",
+							"path": [
+								"api",
+								"Reviewer",
+								"11"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "cat_id",
+			"value": "categoryId"
+		}
+	]
+}
